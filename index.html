@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!-- This sets the width of the page to the device width and the zoom level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Bucket List App</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="BucketList.css">
+    <style>
+        .jumbotron {
+            background-color: #4E4D77;
+            color: white;
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation" ><a href="#">Sign In</a></li>
+                <li role="presentation" ><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div><br>
+
+    <div class="page-header">
+        <h1>My Bucket List</h1>
+    </div>
+
+
+
+    <div class="jumbotron">
+        <p>This is an app that allows the user to Register, Login, Create a bucketlist, View the bucketlist and <br /> Add activities to the bucketlist
+        </p>
+    </div>
+    <form class="form-signin">
+        <div class="input-group input-group-lg">
+            <label for="inputName" class="sr-only">Name</label>
+            <input type="text" name="inputName" id="inputName" class="form-control" placeholder="Name" >
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" >
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" >
+        </div><br>
+
+        <div class="input-group input-group-sm">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Enter</button>
+            </span>
+        </div><br>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
