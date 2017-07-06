@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- This sets the width of the page to the device width and the zoom level -->
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Bucket List App</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="BucketList.css">
+    <title></title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation" ><a href="#">Home</a></li>
+                <li role="presentation" ><a href="#">Sign In</a></li>
+                <li role="presentation" class="active"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div><br>
+
+    <div class="page-header">
+        <h1>My Bucket List</h1>
+    </div>
+
+    <form class="form-signup">
+        <fieldset>
+            <legend>Personal Information:</legend>
+            <label for="inputFirstName">FirstName</label>
+            <input type="text" name="inputFirstName" id="inputFirstName" class="form-control" placeholder="FirstName" >
+            <label for="inputLastName" >LastName</label>
+            <input type="text" name="inputLastName" id="inputLastName" class="form-control" placeholder="LastName" >
+            <label for="inputDOB" >Date of Birth</label>
+            <input type="text" name="inputLastName" id="inputDOB" class="form-control" placeholder="Date of Birth" >
+            <label for="inputEmail" >Email address</label>
+            <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" >
+            <label for="inputPassword" >Password</label>
+            <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Enter Password" >
+            <label for="confirmPassword" >Confirm Password</label>
+            <input type="password" name="inputPassword" id="confirmPassword" class="form-control" placeholder="Confirm Password" >
+            <button type="submit" class="btn btn-default">Submit</button>
+        </fieldset>
+    </form>
+    <footer class="footer">
+        <p>&copy; Created by Tony Mputhia 2017</p>
+    </footer>
+</div>
+
+
+</body>
+</html>
