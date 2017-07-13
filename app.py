@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 @app.route('/')
 @app.route('/index')
@@ -19,6 +19,8 @@ def profile():
 @app.route('/Create_List')
 def create_list():
     return render_template('createlist.html')
+
+app.debug = True
 
 if __name__ == '__main__':
     app.run()
